@@ -32,8 +32,8 @@ export default function App() {
       {games.map(game => {
         return (
           <div className='row'>
-            <div className='col-4'></div>
-            <div className='shadow p-3 mb-5 bg-white rounded col-4'>
+            <div className='col-3'></div>
+            <div className='shadow p-3 mb-5 bg-white rounded col-6'>
               <h6 className='text-center'>{game.teams.away.team.name} <small className='text-muted'>({game.teams.away.leagueRecord.wins}-{game.teams.away.leagueRecord.losses})</small> @ {game.teams.home.team.name} <small className='text-muted'>({game.teams.home.leagueRecord.wins}-{game.teams.home.leagueRecord.losses})</small></h6>
               <h6 className='text-center'><small className='text-muted'>Score:</small><br></br>{game.teams.away.score || 0} - {game.teams.home.score || 0}</h6>
             </div>
