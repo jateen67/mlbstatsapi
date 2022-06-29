@@ -2,10 +2,10 @@ body {
   background-image: linear-gradient(90deg,#243949 0,#517fa4); 
 }
 
-.container > .row > .col-4 {
+.container > .row > .col-6 {
   transition: transform .25s, background .25s;
 }
 
-.container > .row > .col-4:hover {
+.container > .row > .col-6:hover {
   transform: scale(1.2);
 }
