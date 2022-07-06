@@ -3,5 +3,5 @@ export default function Footer() {
         <footer>
             <h6 className='text-center text-warning'>&copy; Jatin Kalsi 2022</h6>
         </footer>
-    );
+    )
 }
